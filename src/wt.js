@@ -1,4 +1,4 @@
-import socket from 'filepizza-socket'
+import socket from 'filePizza-socket'
 
 export function getClient() {
   return new Promise((resolve, reject) => {

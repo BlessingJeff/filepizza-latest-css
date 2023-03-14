@@ -1,5 +1,5 @@
 FROM node:alpine
-MAINTAINER Alexander Kern <filepizza@kern.io>
+MAINTAINER Alexander Kern <fileBurger@kern.io>
 
 COPY . ./
 RUN npm install && npm run build

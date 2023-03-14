@@ -39,7 +39,7 @@ export default class App extends React.Component {
           <meta property="og:url" content="https://file.pizza" />
           <meta
             property="og:title"
-            content="FilePizza - Your files, delivered."
+            content="fileBurger - Your files, delivered."
           />
           <meta
             property="og:description"
@@ -49,7 +49,7 @@ export default class App extends React.Component {
             property="og:image"
             content="https://file.pizza/images/fb.png"
           />
-          <title>FilePizza - Your files, delivered.</title>
+          <title>fileBurger - Your files, delivered.</title>
           <link rel="stylesheet" href="/fonts/fonts.css" />
           <Bootstrap data={this.props.data} />
           <script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js" />
@@ -62,7 +62,7 @@ export default class App extends React.Component {
           </div>
           {/* <footer className="footer">
             <p>
-              <strong>Like FilePizza?</strong> Support its development! <a href="https://commerce.coinbase.com/checkout/247b6ffe-fb4e-47a8-9a76-e6b7ef83ea22" className="donate-button">donate</a>
+              <strong>Like fileBurger?</strong> Support its development! <a href="https://commerce.coinbase.com/checkout/247b6ffe-fb4e-47a8-9a76-e6b7ef83ea22" className="donate-button">donate</a>
             </p>
 
             <p className="byline">
@@ -75,16 +75,16 @@ export default class App extends React.Component {
                 Neeraj Baid
               </a>{" "}
               while eating <strong>Sliver</strong> @ UC Berkeley &middot;{" "}
-              <a href="https://github.com/kern/filepizza#faq" target="_blank">
+              <a href="https://github.com/kern/fileBurger#faq" target="_blank">
                 FAQ
               </a>{" "}
               &middot;{" "}
-              <a href="https://github.com/kern/filepizza" target="_blank">
+              <a href="https://github.com/kern/fileBurger" target="_blank">
                 Fork us
               </a>
             </p>
           </footer> */}
-          <script>FilePizza()</script>
+          <script>fileBurger()</script>
           { process.env.GA_ACCESS_TOKEN ? <ga.Initializer /> : <div></div> }
         </body>
       </html>

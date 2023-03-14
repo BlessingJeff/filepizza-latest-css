@@ -1,7 +1,7 @@
 version: '3'
 services:
-  filepizza:
-    image: kern/filepizza:latest
+  fileBurger:
+    image: kern/fileBurger:latest
     restart: always
     build:
       context: .

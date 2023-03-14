@@ -15,6 +15,6 @@ action "AWS deploy" {
     "AWS_ACCESS_KEY_ID",
     "AWS_SECRET_ACCESS_KEY",
   ]
-  args = "deploy --region us-west-2 create-deployment --application-name AppECS-filepizza-filepizza --deployment-config-name CodeDeployDefault.ECSAllAtOnce --deployment-group-name DgpECS-filepizza-filepizza --github-location repository=kern/filepizza,commitId=$GITHUB_REF"
+  args = "deploy --region us-west-2 create-deployment --application-name AppECS-fileBurger-fileBurger --deployment-config-name CodeDeployDefault.ECSAllAtOnce --deployment-group-name DgpECS-fileBurger-fileBurger --github-location repository=kern/fileBurger,commitId=$GITHUB_REF"
   runs = "aws"
 }

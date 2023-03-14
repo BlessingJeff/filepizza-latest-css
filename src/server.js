@@ -88,7 +88,7 @@ function bootServer(server) {
   server.listen(port, function(err) {
     var host = server.address().address;
     var port = server.address().port;
-    winston.info("FilePizza listening on %s:%s", host, port);
+    winston.info("fileBurger listening on %s:%s", host, port);
   });
 }
 

@@ -1,6 +1,6 @@
 import UploadActions from "../actions/UploadActions";
 import alt from "../alt";
-import socket from "filepizza-socket";
+import socket from "filePizza-socket";
 import { getClient } from "../wt";
 
 const SPEED_REFRESH_TIME = 2000;
